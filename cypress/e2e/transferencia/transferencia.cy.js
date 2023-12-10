@@ -105,27 +105,8 @@ describe('Cenario Transferencia', () => {
         cy.get_data(transferencia);
     })
 
-
-
-    
-
-    // it('Transferencia para dados inválidos', () =>{
-    //     /// Login do usuário
-    //     cy.get('input[type="email"]').first().type("jeff@gmail.com");
-    //     cy.get('input[type="password"]').first().type("123456");
-    //     cy.get('button[type="submit"').first().click();
-
-    //     /// Entrar na transferência
-    //     cy.get("a[id='btn-TRANSFERÊNCIA'").click();
-
-    //     /// Dados de entrada para transferência
-    //     cy.get('input[type="accountNumber"]').type("000");
-    //     cy.get('input[type="digit"]').type("0");
-    //     cy.get('input[type="transferValue"]').type("20");
-    //     cy.get('input[type="description"]').type("E o pix? Hãm? Nada Ainda?");
-    //     cy.get('button[type="submit"').first().click();
+    it("CT0018 - TESTE", () => {
         
-    //     /// Assert de não transferência
-    //     cy.get("p[id='modalText']").contains("Conta inválida ou inexistente").should('be.visible');
-    // })
+    })
+
 })
